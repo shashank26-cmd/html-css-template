@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #edf1fd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Added a background color for the header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+}
+
+nav .logo {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    padding: 4px 10px;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.left {
+    width: 50%; /* Adjusted width to make it responsive */
+    padding-right: 30px; /* Added some spacing between left and right sections */
+}
+
+.left h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.right {
+    width: 50%; /* Adjusted width to make it responsive */
+}
+
+
+.bts {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+.imag{
+display: flex;
+/* flex-direction: column; */
+justify-content: space-around;
+
+}
+.bts{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #fff; /* Added a background color for the footer */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add your media queries for responsiveness */

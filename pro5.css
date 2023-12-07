@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./pexels-maxyne-barcel-10402282\ 1.png'); /* Correct the path with a forward slash */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Use space-between to push the elements to the edges */
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.bts {
+    background-color: violet; /* Add violet background color */
+    padding: 10px; 
+    /* Add padding to the button */
+    position: fixed;
+    right: 4%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.center{
+    width: 30%;
+    color: white;}
+
+ .j{
+        margin-left: -15px; /* Adjust the negative margin to shift the word left */
+    
+}
+.center h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.center p{
+    position: relative;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 14px;
+    margin-left: -30px;
+}
+
+.foot{
+    margin-top: 2%;
+    background-color: violet;
+    padding: 10px 20px;
+    color:white;
+    border-radius:20px;
+}
+
+
+
+
+

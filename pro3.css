@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    position: relative;
+}
+
+.background-image img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.head {
+    position: absolute;
+    top: 0%;
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.nav ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav ul li {
+    list-style: none;
+    color: yellow;
+}
+
+.order-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mid {
+    position: fixed;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+}
+
+.s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h h1 {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center; /* Center text within the container */
+}
+
+/* .h h1-center {
+    text-align: center; /* Center text within the container */
+
+.Read {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+.foo {
+    display: flex;
+    justify-content: flex-end;
+}
